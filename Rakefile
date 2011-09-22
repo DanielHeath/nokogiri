@@ -48,7 +48,8 @@ HOE = Hoe.spec 'nokogiri' do
     ["hoe-debugging",   ">= 0"],
     ["hoe-git",         ">= 0"],
     ["hoe-gemspec",     ">= 0"],
-    ["hoe-bundler",     ">= 0"]
+    ["hoe-bundler",     ">= 0"],
+    ["rdoc",            ">= 0"]
   ]
 
   if java?
